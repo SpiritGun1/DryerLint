@@ -1,0 +1,9 @@
+black
+isort
+pylint
+mypy
+pyright
+bandit
+ruff
+flake8
+pydocstyle

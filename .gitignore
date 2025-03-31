@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# MyPy & Pyright cache
+.mypy_cache/
+.pyright/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# OS / IDE files
+.DS_Store
+.idea/
+.vscode/
