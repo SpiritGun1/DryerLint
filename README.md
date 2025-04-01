@@ -1,56 +1,35 @@
-![PyPI](https://img.shields.io/pypi/v/dryerlint)
-![Python](https://img.shields.io/pypi/pyversions/dryerlint)
-![License](https://img.shields.io/github/license/SpiritGun1/DryerLint)
+[![PyPI](https://img.shields.io/pypi/v/dryerlint)](https://pypi.org/project/dryerlint)
+[![Python](https://img.shields.io/pypi/pyversions/dryerlint)](https://pypi.org/project/dryerlint)
+[![License](https://img.shields.io/github/license/SpiritGun1/DryerLint)](https://github.com/SpiritGun1/DryerLint/blob/main/LICENSE)
 
 # 🧺 DryerLint
 
 > Remove the Fuzz.
 
-DryerLint is a Python-powered code quality tool that:
+**DryerLint** is a Python-powered code quality tool that:
 - 🧼 Cleans up formatting with `black`, `isort`, and `ruff`
 - 🧐 Runs deep linting, static analysis, type checks, and security scans
 - 🎯 Outputs a color-coded summary with an overall code quality score
 - 🚫 Ignores your `venv`, `.git`, and all the other gunk
 
+---
+
+## ✨ Features
+
+- ✅ Auto-fixes formatting and imports
+- 🔍 Deep linting, type checks, and security scans
+- 🧠 Smart error summaries with scoring
+- 🎨 Color-coded terminal output
+- 🧺 One script to clean them all
+
+---
+
 ## 💻 Installation
 
-1. Clone this repo or download the script
-2. Create and activate a virtual environment:
 ```bash
+git clone https://github.com/SpiritGun1/DryerLint.git
+cd DryerLint
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-```
-3. Install the tools:
-```bash
-pip install -r editor_requirements.txt
-```
+venv\Scripts\activate   # or source venv/bin/activate on macOS/Linux
+pip install -r requirements.txt
 
-## ▶️ Usage
-
-```bash
-python run_code_quality_checks.py
-```
-
-You’ll get:
-- Auto-fixes (black, isort, ruff)
-- Lint & security checks (pylint, mypy, pyright, bandit, flake8, pydocstyle)
-- A color-coded terminal report
-- An overall code quality score out of 100
-
-## 📁 Included Tools
-
-| Tool        | Purpose           | Auto-fix? |
-|-------------|-------------------|-----------|
-| `black`     | Code formatter    | ✅ Yes     |
-| `isort`     | Import sorter     | ✅ Yes     |
-| `ruff`      | Fast linter       | ✅ Yes     |
-| `pylint`    | Style + logic     | ❌ No      |
-| `flake8`    | Linting           | ❌ No      |
-| `mypy`      | Type checker      | ❌ No      |
-| `pyright`   | Static analysis   | ❌ No      |
-| `bandit`    | Security scanner  | ❌ No      |
-| `pydocstyle`| Docstring checker | ❌ No      |
-
-## 🤝 License
-
-MIT — free to use, modify, and share.
