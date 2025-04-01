@@ -1,3 +1,7 @@
+![PyPI](https://img.shields.io/pypi/v/dryerlint)
+![Python](https://img.shields.io/pypi/pyversions/dryerlint)
+![License](https://img.shields.io/github/license/SpiritGun1/DryerLint)
+
 # 🧺 DryerLint
 
 > Remove the Fuzz.
